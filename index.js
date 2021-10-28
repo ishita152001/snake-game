@@ -56,6 +56,7 @@ function gameEngine() {
             x: 0,
             y: 0
         };
+        backgroundSound.pause();
         alert("Game over!!!!!!!!..Press any key to start!!!!!!!!!!!!!!!!!");
         snakeArr = [{
             x: 10,
